@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <style>
+        * { /*盒子初始化，主要为了取消body默认的margin*/
+            margin: 0;
+            padding: 0;
+            /*background-color: aqua;*/
+        }
+
+        .test1 { /*外部*/
+            /*background-color: cornsilk;*/
+            width: 500px;
+            height: 50px;
+            margin: auto; /*水平居中*/
+            border-bottom: 1px solid gray; /*下面划线*/
+            padding: 10px 0 10px 0; /*防止内边距合并*/
+        }
+
+        .test { /*内部*/
+            width: 500px;
+            height: 30px; /*50-10-10*/
+            background-color: gray;
+            margin: 10px 0 10px 0; /*居中画个灰框框*/
+        }
+    </style>
+</head>
+<body>
+<div class="test1">
+    <div class="test"></div>
+</div>
+<div class="test1">
+    <div class="test"></div>
+</div>
+<div class="test1">
+    <div class="test"></div>
+</div>
+</body>
+</html>

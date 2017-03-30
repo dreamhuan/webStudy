@@ -1,0 +1,29 @@
+#test1,
+#test2 {
+    margin: 2px;
+    width: 300px;
+    border: 1px solid red;
+}
+
+.small {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    float: left;
+    background-color: lightblue;
+}
+
+.end {
+    width: 300px;
+    height: 0;
+    clear: both;
+}
+
+.big {
+    width: 110px;
+    height: 110px;
+    margin: 5px;
+    float: left;
+    background-color: lightblue;
+}
+

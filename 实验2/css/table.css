@@ -1,0 +1,14 @@
+table {
+    table-layout: fixed;
+}
+td {
+    width: 100px;;
+    height: 30px;
+}
+.border {
+    border: 1px solid blue;
+}
+
+.bg-red {
+    background-color: red;
+}
