@@ -1,0 +1,134 @@
+#top,
+#meddle,
+#something,
+#bottom {
+    box-sizing: border-box;
+    border: 1px solid gainsboro;
+}
+
+#tools {
+    width: 300px;
+    height: 500px;
+}
+
+#top {
+    width: auto;
+    height: 20%;
+}
+
+#meddle {
+    width: auto;
+    height: 30%;
+}
+
+#something {
+    width: auto;
+    height: 10%;
+}
+
+#bottom {
+    width: auto;
+    height: 40%;
+}
+
+.menu {
+    background-color: gainsboro;
+}
+
+.menu-btn {
+    display: inline-block;
+    width: 47.75px;
+    padding: 4px;
+    text-align: center;
+}
+.menu-btn:hover {
+    display: inline-block;
+    width: 47.75px;
+    padding: 4px;
+    text-align: center;
+    background-color: white;
+}
+
+.link {
+    margin: 5px;
+    border: 1px solid gainsboro;
+}
+
+.square-pic {
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    background-color: #ff4c15;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+#meddle .show {
+    float: left;
+    width: 190px;
+    margin: 17px 10px 15px 0;
+}
+
+#meddle .link {
+    width: auto;
+}
+
+.btn {
+    width: 80px;
+    height: 25px;
+    margin: 5px;
+    padding: 3px;
+    background-color: #ff4c15;
+    float: left;
+    text-align: center;
+    color: white;
+}
+
+#something .link {
+    margin-top: 13px;
+}
+
+.big-pic {
+    box-sizing: border-box;
+    width: 119px;
+    height: 132px;
+    float: left;
+    /*margin: 5px 4px 6px 4px;*/
+    border: 1px solid gainsboro;
+}
+
+.small-pic {
+    box-sizing: border-box;
+    width: 59.5px;
+    height: 66px;
+    float: left;
+    /*margin: 3px 3px 8px 3px;*/
+    border: 1px solid gainsboro;
+}
+
+.big-pic .content-pic {
+    /*box-sizing: border-box;*/
+    width: 50px;
+    height: 60px;
+    margin: 20px 0 10px 34px;
+    background-color: #ff4c15;
+}
+
+.small-pic .content-pic {
+    /*box-sizing: border-box;*/
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-color: #ff4c15;
+}
+
+.big-pic .content,
+.small-pic .content {
+    font-size: 12px;
+    text-align: center;
+}
