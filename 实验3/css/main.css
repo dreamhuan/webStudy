@@ -37,16 +37,26 @@
 
 .menu-btn {
     display: inline-block;
-    width: 47.75px;
+    width: 47.8px;
     padding: 4px;
     text-align: center;
 }
+
 .menu-btn:hover {
     display: inline-block;
-    width: 47.75px;
+    width: 47.8px;
     padding: 4px;
     text-align: center;
     background-color: white;
+}
+
+.menu-btn:focus {
+    display: inline-block;
+    width: 47.8px;
+    padding: 4px;
+    text-align: center;
+    background-color: white;
+    outline: none;
 }
 
 .link {
@@ -93,16 +103,15 @@
 
 .big-pic {
     box-sizing: border-box;
-    width: 119px;
+    width: 119.2px;
     height: 132px;
     float: left;
-    /*margin: 5px 4px 6px 4px;*/
     border: 1px solid gainsboro;
 }
 
 .small-pic {
     box-sizing: border-box;
-    width: 59.5px;
+    width: 59.6px;
     height: 66px;
     float: left;
     /*margin: 3px 3px 8px 3px;*/
