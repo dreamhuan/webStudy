@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>绝对定位元素水平居中</title>
+    <style>
+        .parent {
+            position: absolute;
+            width: 300px;
+            height: 200px;
+            background-color: #206a13;
+        }
+        .son {
+            position: absolute;
+            left: 50%;
+            width: 100px;
+            height: 50px;
+            background-color: #1eff00;
+        }
+        .cont {
+            margin-left: -50%;
+            width: 100%;
+            height: 50px;
+            background-color: #15360e;
+        }
+    </style>
+</head>
+<body>
+<div class="parent">
+    <div class="son">
+        <div class="cont"></div>
+    </div>
+</div>
+</body>
+</html>
