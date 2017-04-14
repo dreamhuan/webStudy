@@ -1,0 +1,39 @@
+html body {
+    height: 100%;
+}
+.ui-box {
+    width: 600px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    align-content: flex-start;
+}
+
+.ui-box-item {
+    margin: 10px;
+}
+
+.ui-box-img {
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+.ui-img-none {
+    display: none;
+}
+
+.ui-img-show {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 600px;
+}
+
+.blur {
+    filter: blur(3px);
+}
+
