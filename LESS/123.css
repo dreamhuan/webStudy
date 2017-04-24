@@ -1,0 +1,15 @@
+#header {
+  color: #4D926F;
+}
+h2 {
+  color: #4D926F;
+}
+#header p {
+  font-size: 12px;
+}
+#header p a {
+  text-decoration: none;
+}
+#header p a:hover {
+  border-width: 1px;
+}

@@ -1,0 +1,22 @@
+//lessc xxx.less xxx.css
+
+@color: #4D926F;
+#header {
+  color: @color;
+}
+h2 {
+  color: @color;
+}
+
+
+#header {
+  p {
+    font-size: 12px;
+    a {
+      text-decoration: none;
+      &:hover {
+        border-width: 1px
+      }
+    }
+  }
+}

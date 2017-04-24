@@ -1,0 +1,16 @@
+//JSON 的语法规则
+//数组（Array）用方括号(“[]”)表示。
+//对象（Object）用大括号（”{}”）表示。
+//名称/值对（name/value）之间用冒号（”：”）隔开。
+//名称（name）置于双引号中，值（value）有字符串、数值、布尔值、null、对象和数组。
+//并列的数据之间用逗号（“,”）分隔
+{
+"name": "Geoff Lui",
+"age": 26,
+"isChinese": true,
+"friends":["Lucy", "Lily", "Gwen"],
+"Mother": {
+"name": "Mary Lui",
+"age": 54
+}
+}
