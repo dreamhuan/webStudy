@@ -8,12 +8,13 @@
 
 .ui-header {
     height: 50px;
-    padding-top: 5px;
+    padding-top: 8px;
     background-color: #00c2ae;
     color: white;
 }
 
 .ui-select {
+    padding-top: 3px;
     display: flex;
     justify-content: center;
 }
