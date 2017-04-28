@@ -327,3 +327,9 @@
     background-color: #8fc6ea;
     color: #00b4d3;
 }
+
+.ui-next {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
