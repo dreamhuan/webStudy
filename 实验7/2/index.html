@@ -9,7 +9,7 @@
 
     <!-- Bootstrap -->
     <link href="../lib/bootstrap.min.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="../lib/font-awesome.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -21,32 +21,232 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-md-1">.col-md-1</div>
-        <div class="col-md-1">.col-md-1</div>
-        <div class="col-md-1">.col-md-1</div>
-        ...
-        <div class="col-md-1">.col-md-1</div>
-        <div class="col-md-1">.col-md-1</div>
-    </div>
-    <div class="row">
-        <div class="col-md-8">.col-md-8</div>
-        <div class="col-md-4">.col-md-4</div>
-    </div>
-    <div class="row">
-        <div class="col-md-4">.col-md-4</div>
-        <div class="col-md-4">.col-md-4</div>
-        <div class="col-md-4">.col-md-4</div>
-    </div>
-    <div class="row">
-        <div class="col-md-6">.col-md-6</div>
-        <div class="col-md-6">.col-md-6</div>
+<div class="header">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-offset-10 col-md-2 ui-header-in">
+                <div class="ui-header-login ui-cursor">登录</div>
+                <div class="ui-header-register ui-cursor">注册</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-xs-6 ui-header-nav">
+                <div class="ui-nav-item">
+                    <div class="ui-nav-hover">首页</div>
+                </div>
+                <div class="ui-nav-item">
+                    讲座 <span class="caret"></span>
+                </div>
+                <div class="ui-nav-item">悦读</div>
+                <div class="ui-nav-item">创意榜</div>
+            </div>
+            <div class="col-md-6 col-xs-6">
+                <div class="ui-search">
+                    <div class="ui-search-text ui-cursor">
+                        文章 <span class="caret ui-search-font"></span>
+                    </div>
+                    <input type="text" class="ui-search-input">
+                    <div class="glyphicon glyphicon-search ui-search-icon"></div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
-
-
+<div class="main">
+    <div class="container-fluid">
+        <div class="row ui-main-head">
+            <div class="col-md-8 col-xs-8">
+                <div class="ui-main-head-left"></div>
+            </div>
+            <div class="col-md-4 col-xs-4">
+                <div class="ui-main-head-right">
+                    <div class="ui-head-right-up">
+                        <div class="ui-head-right-title">XXXXXXXXXXXXXXXXX</div>
+                        <div class="ui-head-right-btn"></div>
+                    </div>
+                    <div class="ui-head-right-down">
+                        <div class="row">
+                            <div class="col-xs-6"><span class="ui-right-down-font">330</span> XXXX</div>
+                            <div class="col-xs-6"><span class="ui-right-down-font">280</span> XXXX</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6"><span class="ui-right-down-font">650</span> XXXX</div>
+                            <div class="col-xs-6"><span class="ui-right-down-font">1144</span> XXXX</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row ui-main-body">
+            <div class="col-md-8 col-xs-8">
+                <div class="ui-main-body-left">
+                    <div class="ui-body-left-title">
+                        XXXXX
+                    </div>
+                    <div class="ui-body-left-items">
+                        <div class="ui-left-item-1">
+                            <div class="ui-item-1-left">
+                                <div class="ui-item-1-left-title">XXXXXXXXXXXXXXXXXXXX</div>
+                                <div class="ui-item-1-left-content">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</div>
+                                <div class="ui-left-tip">
+                                    <div class="ui-left-tip-read">772阅读</div>
+                                    <div class="ui-left-tip-talk">0讨论</div>
+                                </div>
+                            </div>
+                            <div class="ui-item-1-right">
+                                <div class="ui-item-1-right-pic"></div>
+                                <div class="ui-item-1-right-title">XXXXXXXXXXXXXXXXXXXX</div>
+                                <div class="ui-left-tip">
+                                    <div class="ui-left-tip-read">3376阅读</div>
+                                    <div class="ui-left-tip-talk">2讨论</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ui-left-item-2">
+                            <div class="ui-item-2-left">
+                                <div class="ui-item-2-pic"></div>
+                                <div class="ui-item-2-ppt">PPT</div>
+                                <div class="ui-item-2-title">XXXXXXXXXXXXXXXX</div>
+                                <div class="ui-left-tip">
+                                    <div class="ui-left-tip-read">34839阅读</div>
+                                    <div class="ui-left-tip-talk">250下载</div>
+                                </div>
+                            </div>
+                            <div class="ui-item-2-middle">
+                                <div class="ui-item-2-pic"></div>
+                                <div class="ui-item-2-ppt">PPT</div>
+                                <div class="ui-item-2-title">XXXXXXXXXXXXXXXX</div>
+                                <div class="ui-left-tip">
+                                    <div class="ui-left-tip-read">35545阅读</div>
+                                    <div class="ui-left-tip-talk">160下载</div>
+                                </div>
+                            </div>
+                            <div class="ui-item-2-right">
+                                <div class="ui-item-2-pic"></div>
+                                <div class="ui-item-2-ppt">PPT</div>
+                                <div class="ui-item-2-title">XXXXXXXXXXXXXXXX</div>
+                                <div class="ui-left-tip">
+                                    <div class="ui-left-tip-read">39636阅读</div>
+                                    <div class="ui-left-tip-talk">317下载</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ui-left-item-3">
+                            <div class="ui-item-3-left">
+                                <div class="ui-item-3-pic"></div>
+                                <div class="ui-item-3-title">XXXXXXXXXXXXXXXXX</div>
+                                <div class="ui-left-tip">
+                                    <div class="ui-left-tip-read">3614阅读</div>
+                                    <div class="ui-left-tip-talk">1讨论</div>
+                                </div>
+                            </div>
+                            <div class="ui-item-3-right">
+                                <div class="ui-item-3-pic"></div>
+                                <div class="ui-item-3-title">XXXXXXXXXXXXXXXXX</div>
+                                <div class="ui-left-tip">
+                                    <div class="ui-left-tip-read">3528阅读</div>
+                                    <div class="ui-left-tip-talk">5讨论</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ui-left-item-4">
+                            <div class="ui-item-4-left">
+                                <div class="ui-item-4-pic"><i class="fa fa-play-circle-o" aria-hidden="true"></i></div>
+                                <div class="ui-item-4-title">XXXXXXXXXXXXX</div>
+                                <div class="ui-left-tip">
+                                    <div class="ui-left-tip-read">894播放</div>
+                                    <div class="ui-left-tip-talk">0讨论</div>
+                                </div>
+                            </div>
+                            <div class="ui-item-4-middle">
+                                <div class="ui-item-4-pic"><i class="fa fa-play-circle-o" aria-hidden="true"></i></div>
+                                <div class="ui-item-4-title">XXXXXXXXXXXXX</div>
+                                <div class="ui-left-tip">
+                                    <div class="ui-left-tip-read">794播放</div>
+                                    <div class="ui-left-tip-talk">0讨论</div>
+                                </div>
+                            </div>
+                            <div class="ui-item-4-right">
+                                <div class="ui-item-4-pic"><i class="fa fa-play-circle-o" aria-hidden="true"></i></div>
+                                <div class="ui-item-4-title">XXXXXXXXXXXXX</div>
+                                <div class="ui-left-tip">
+                                    <div class="ui-left-tip-read">729播放</div>
+                                    <div class="ui-left-tip-talk">0讨论</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ui-left-item-5">
+                            <div class="ui-item-5-left">
+                                <div class="ui-item-5-pic"></div>
+                            </div>
+                            <div class="ui-item-5-right">
+                                <div class="ui-item-5-title">XXXXXXXXXXXXXXXXXXXX</div>
+                                <div class="ui-item-5-content">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</div>
+                                <div class="ui-left-tip-5">
+                                    <div class="ui-left-tip-read">3276阅读</div>
+                                    <div class="ui-left-tip-talk">2讨论</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ui-left-item-6">
+                            <div class="ui-item-6-left-title">XXXXXXXXXXXXXXX</div>
+                            <div class="ui-item-6-left-content">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</div>
+                            <div class="ui-left-tip-6">
+                                <div class="ui-left-tip-read">4006阅读</div>
+                                <div class="ui-left-tip-talk">13讨论</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-4">
+                <div class="ui-main-body-right">
+                    <div class="ui-body-right-title">
+                        <div class="font">XXXX</div>
+                        <div class="item">更多 <span class="glyphicon glyphicon-menu-right"></span></div>
+                    </div>
+                    <div class="ui-body-right-items">
+                        <div class="ui-right-item-1">
+                            <span class="oblique-text">即将开始</span>
+                            <div class="ui-right-item-pic"></div>
+                            <div class="ui-right-item-title">XXXXXXXXXXXXXXXXXXXX</div>
+                            <div class="ui-right-item-time">4月9日 13:00 - 18:00</div>
+                            <div class="ui-right-item-content">XXXXXXXXXXXXXXXXXXXXXXX</div>
+                            <div class="ui-left-tip">
+                                <div class="ui-left-tip-read">2人已报名</div>
+                                <div class="ui-left-tip-talk">2人关注</div>
+                            </div>
+                        </div>
+                        <div class="ui-right-item-2">
+                            <span class="oblique-text">即将开始</span>
+                            <div class="ui-right-item-pic"></div>
+                            <div class="ui-right-item-title">XXXXXXXXXXXXXXXXXX</div>
+                            <div class="ui-right-item-time">4月21日 9:15 - 4月23日 17:25</div>
+                            <div class="ui-right-item-content">XXXXXXXXXXXXXXXXX</div>
+                            <div class="ui-left-tip">
+                                <div class="ui-left-tip-read">2人已报名</div>
+                                <div class="ui-left-tip-talk">0人关注</div>
+                            </div>
+                        </div>
+                        <div class="ui-right-item-3">
+                            <div class="ui-right-item-3-head">
+                                <div class="ui-right-item-3-title">
+                                    <div class="font">XXXXX<span>XXX</span></div>
+                                    <div class="item">更多 <span class="glyphicon glyphicon-menu-right"></span></div>
+                                </div>
+                            </div>
+                            <div class="ui-right-item-3-content">
+                                <div class="ui-right-item-3-pic">
+                                    <span class="ui-right-item-3-num">第128期</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="../lib/jquery-3.2.1.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->

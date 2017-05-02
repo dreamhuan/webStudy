@@ -11,6 +11,7 @@
     padding-top: 8px;
     background-color: #00c2ae;
     color: white;
+    border-bottom: 2px solid #279b90;
 }
 
 .ui-select {
@@ -52,6 +53,9 @@
     text-align: center;
 }
 
+.ui-main{
+    border-top: 1px solid #d0e9e6
+}
 .item-circle {
     padding-bottom: 20px;
 }
