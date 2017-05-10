@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
+    <link rel="stylesheet" href="css/index.css">
+    <title>地图展示</title>
+</head>
+<body>
+<div id="myMap"></div>
+<div id="show">
+    <div id="option">
+        <div class="ui-select">
+            <div id="lake"><a href="#">西湖附近宾馆</a></div>
+            <div id="hznu"><a href="#">杭师大仓前校区</a></div>
+        </div>
+        <div class="ui-search">
+            <div class="ui-search-title">线路查询</div>
+            <div class="ui-search-start">起点：杭师大仓前校区</div>
+            <div class="ui-search-end">
+                终点： <input type="text" id="end">
+            </div>
+            <select id="way">
+                <option value="0">最少时间</option>
+                <option value="1">最少换乘</option>
+                <option value="2">最少步行</option>
+                <option value="3">不乘地铁</option>
+            </select>
+            <button id="search">查询</button>
+        </div>
+    </div>
+    <div id="result"></div>
+</div>
+
+<!--开发的时候用下面那行js，可以有代码提示，开发完用上面那行。-->
+<!--<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=o1KseViAhR0fVGkz0OB5FNxKZP26oct6"></script>-->
+<!--<script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=o1KseViAhR0fVGkz0OB5FNxKZP26oct6&s=1"></script>-->
+<script src="lib/jquery-3.2.1.js"></script>
+<script src="lib/myBaiduMap.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

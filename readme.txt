@@ -1,4 +1,4 @@
-安装node程序，目前最新版本是v7.6.0 Current
-安装browser-sync程序，命令npm i -g browser-sync
-进入网站根目录，启动服务器：
+瀹夎node绋嬪簭锛岀洰鍓嶆渶鏂扮増鏈槸v7.6.0 Current
+瀹夎browser-sync绋嬪簭锛屽懡浠pm i -g browser-sync
+杩涘叆缃戠珯鏍圭洰褰曪紝鍚姩鏈嶅姟鍣細
 browser-sync start --server --files "."
